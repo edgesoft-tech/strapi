@@ -2183,6 +2183,14 @@
     "@strapi/utils" "5.18.1"
     fs-extra "11.2.0"
 
+"@strapi/provider-upload-local@5.34.0":
+  version "5.34.0"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-local/-/provider-upload-local-5.34.0.tgz#1f3f85f0f01b9ca9b63617dc9077b82ec5a2d34a"
+  integrity sha512-kJPGGHjqVXpfeq7gk9UvMlVS1sBjtkxR7letHBuJyf85ptr2TquOf/lZ+zGSrZu/Z6/X70Zdmvw1EEvSYsgdSg==
+  dependencies:
+    "@strapi/utils" "5.34.0"
+    fs-extra "11.2.0"
+
 "@strapi/review-workflows@5.18.1":
   version "5.18.1"
   resolved "https://registry.yarnpkg.com/@strapi/review-workflows/-/review-workflows-5.18.1.tgz#8833ac0b8eab35a4b9f4d56b926756cacf4b5918"
@@ -2373,6 +2381,22 @@
     preferred-pm "3.1.2"
     yup "0.32.9"
     zod "3.24.2"
+
+"@strapi/utils@5.34.0":
+  version "5.34.0"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-5.34.0.tgz#1ad06a2050793a4202274f99585ea5ecce6f63f6"
+  integrity sha512-9pOcx4I9Uif0GFkqsHExzaRSkxENrQ4iQ28C/flRaALF85nEk+TCv1omKb81ZYBBTSevL6nVIEQ3G7lzUPa6/w==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.30.0"
+    execa "5.1.1"
+    http-errors "2.0.0"
+    lodash "4.17.21"
+    node-machine-id "1.1.12"
+    p-map "4.0.0"
+    preferred-pm "3.1.2"
+    yup "0.32.9"
+    zod "3.25.67"
 
 "@swc/core-darwin-arm64@1.11.8":
   version "1.11.8"
@@ -9792,3 +9816,8 @@ zod@3.24.2, zod@^3.19.1:
   version "3.24.2"
   resolved "https://registry.yarnpkg.com/zod/-/zod-3.24.2.tgz#8efa74126287c675e92f46871cfc8d15c34372b3"
   integrity sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==
+
+zod@3.25.67:
+  version "3.25.67"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.25.67.tgz#62987e4078e2ab0f63b491ef0c4f33df24236da8"
+  integrity sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==
